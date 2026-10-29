@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Relief Coordination System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="overlay">
+
+        <div class="logo">🚨</div>
+
+        <h1>Emergency Relief Coordination System</h1>
+
+        <p class="subtitle">
+            Intelligent allocation of emergency resources during crises and disasters.
+        </p>
+
+        <div class="card">
+
+            <h2>Submit Emergency Request</h2>
+
+            <form id="requestForm">
+
+                <input
+                    type="text"
+                    id="requester_name"
+                    placeholder="Requester Name"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="location"
+                    placeholder="Location"
+                    required
+                >
+
+                <input
+                    type="number"
+                    id="people_count"
+                    placeholder="People Count"
+                    required
+                >
+
+                <select id="urgency_level" required>
+                    <option value="">Select Urgency Level</option>
+                    <option value="1">1 - Very Low</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 - Moderate</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8 - High</option>
+                    <option value="9">9</option>
+                    <option value="10">10 - Critical</option>
+                </select>
+
+                <input
+                    type="text"
+                    id="shelter_type_needed"
+                    placeholder="Shelter Type Needed"
+                    required
+                >
+
+                <button type="submit">
+                    Submit Request
+                </button>
+
+            </form>
+
+            <div id="message"></div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
