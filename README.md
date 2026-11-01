@@ -269,13 +269,3 @@ frontend/index.html
 or use VS Code Live Server.
 
 ---
-
-# Future Improvements
-
-- Interactive admin dashboard
-- Real-time notifications
-- Map integration
-- Resource analytics
-- PDF and CSV reporting
-- Inventory tracking
-- Advanced AI-assisted resource allocation
